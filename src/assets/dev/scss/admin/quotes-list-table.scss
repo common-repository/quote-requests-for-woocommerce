@@ -1,0 +1,151 @@
+@import "../../../../../vendor/wpackagist-plugin/woocommerce/assets/css/mixins";
+
+.post-type-dws_shop_quote {
+  .woocommerce-BlankState {
+    max-width: 764px;
+    text-align: center;
+    margin: auto;
+
+    &-message {
+      color: #444;
+      font-size: 1.5em;
+      margin: 0 auto 1em;
+
+      &:before {
+        @include iconbefore( '\e900' );
+        margin: 0 auto;
+      }
+    }
+
+    &-buttons {
+      margin-bottom: 4em;
+    }
+  }
+
+  .tablenav {
+    .select2-container {
+      float: left;
+      width: 240px !important;
+      font-size: 14px;
+      vertical-align: middle;
+      margin: 1px 6px 4px 1px;
+    }
+  }
+
+  .wp-list-table {
+    thead {
+      th {
+        padding: .75em 1em;
+
+        &:last-child {
+          padding-right: 2em;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        border-top: 1px solid #f5f5f5;
+
+        th, td {
+          padding: 1em;
+          line-height: 26px;
+          width: 12ch;
+          vertical-align: middle;
+        }
+      }
+    }
+
+    th[class*='column-'] {
+      width: 3em;
+    }
+
+    .check-column {
+      width: 1px;
+      white-space: nowrap;
+      padding: 1em 1em 1em 1em!important;
+      vertical-align: middle;
+    }
+    .column-order_number {
+      width: 20ch;
+
+      .order-preview {
+        float: right;
+        width: 16px;
+        padding: 20px 4px 4px 4px;
+        height: 0;
+        overflow: hidden;
+        position: relative;
+        border: 2px solid transparent;
+        border-radius: 4px;
+
+        &:before {
+          @include iconbefore( '\e010' );
+          position: absolute;
+          top: 4px;
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+    }
+    .column-order_date {
+      width: 10ch;
+    }
+    th[class*='column-quote_date_'] {
+      width: 10ch;
+    }
+    .column-order_status {
+      width: 14ch;
+
+      .order-status {
+        &.status-quote-request {
+          background: #c8d7e1;
+          color: #2e4453;
+        }
+
+        &.status-quote-cancelled,
+        &.status-quote-expired {
+          background: #f8dda7;
+          color: #94660c;
+        }
+
+        &.status-quote-rejected {
+          background: #eba3a3;
+          color: #761919;
+        }
+
+        &.status-quote-accepted {
+          background: #c6e1c6;
+          color: #5b841b;
+        }
+      }
+    }
+    .column-billing_address,
+    .column-shipping_address {
+      width: 20ch;
+      line-height: 1.5em;
+    }
+    .column-order_total {
+      width: 8ch;
+      text-align: right;
+
+      a span {
+        float: right;
+      }
+    }
+    .column-wc_actions {
+      text-align: right;
+
+      a.button {
+        text-indent: 9999px;
+
+        &.wc-action-button-view-accepted-order:after {
+          content: "\f504";
+        }
+        &.wc-action-button-generate-quote-pdf:after {
+          content: "\f497";
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+#dws-quote-data h2.hndle, #dws-quote-data h3.hndle,
+#dws-quote-data .handlediv, #dws-quote-data .postbox-header {
+  display: none;
+}
+#dws-quote-data .inside {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=quotes-metaboxes.css.map */

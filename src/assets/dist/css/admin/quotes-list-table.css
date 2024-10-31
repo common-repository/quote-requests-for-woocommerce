@@ -1,0 +1,196 @@
+/**
+ * Deprecated
+ * Fallback for bourbon equivalent
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Use bourbon mixin instead `@include transform(scale(1.5));`
+ */
+/**
+ * Deprecated
+ * Use bourbon mixin instead `@include box-sizing(border-box);`
+ */
+/**
+ * Objects
+ */
+.post-type-dws_shop_quote .woocommerce-BlankState {
+  max-width: 764px;
+  text-align: center;
+  margin: auto;
+}
+.post-type-dws_shop_quote .woocommerce-BlankState-message {
+  color: #444;
+  font-size: 1.5em;
+  margin: 0 auto 1em;
+}
+.post-type-dws_shop_quote .woocommerce-BlankState-message:before {
+  font-family: "WooCommerce";
+  speak: never;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 0.618em;
+  content: "\e900";
+  text-decoration: none;
+  margin: 0 auto;
+}
+.post-type-dws_shop_quote .woocommerce-BlankState-buttons {
+  margin-bottom: 4em;
+}
+.post-type-dws_shop_quote .tablenav .select2-container {
+  float: left;
+  width: 240px !important;
+  font-size: 14px;
+  vertical-align: middle;
+  margin: 1px 6px 4px 1px;
+}
+.post-type-dws_shop_quote .wp-list-table thead th {
+  padding: 0.75em 1em;
+}
+.post-type-dws_shop_quote .wp-list-table thead th:last-child {
+  padding-right: 2em;
+}
+.post-type-dws_shop_quote .wp-list-table tbody tr {
+  border-top: 1px solid #f5f5f5;
+}
+.post-type-dws_shop_quote .wp-list-table tbody tr th, .post-type-dws_shop_quote .wp-list-table tbody tr td {
+  padding: 1em;
+  line-height: 26px;
+  width: 12ch;
+  vertical-align: middle;
+}
+.post-type-dws_shop_quote .wp-list-table th[class*=column-] {
+  width: 3em;
+}
+.post-type-dws_shop_quote .wp-list-table .check-column {
+  width: 1px;
+  white-space: nowrap;
+  padding: 1em 1em 1em 1em !important;
+  vertical-align: middle;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_number {
+  width: 20ch;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_number .order-preview {
+  float: right;
+  width: 16px;
+  padding: 20px 4px 4px 4px;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_number .order-preview:before {
+  font-family: "WooCommerce";
+  speak: never;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 0.618em;
+  content: "\e010";
+  text-decoration: none;
+  position: absolute;
+  top: 4px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_date {
+  width: 10ch;
+}
+.post-type-dws_shop_quote .wp-list-table th[class*=column-quote_date_] {
+  width: 10ch;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_status {
+  width: 14ch;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-request {
+  background: #c8d7e1;
+  color: #2e4453;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-cancelled, .post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-expired {
+  background: #f8dda7;
+  color: #94660c;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-rejected {
+  background: #eba3a3;
+  color: #761919;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-accepted {
+  background: #c6e1c6;
+  color: #5b841b;
+}
+.post-type-dws_shop_quote .wp-list-table .column-billing_address,
+.post-type-dws_shop_quote .wp-list-table .column-shipping_address {
+  width: 20ch;
+  line-height: 1.5em;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_total {
+  width: 8ch;
+  text-align: right;
+}
+.post-type-dws_shop_quote .wp-list-table .column-order_total a span {
+  float: right;
+}
+.post-type-dws_shop_quote .wp-list-table .column-wc_actions {
+  text-align: right;
+}
+.post-type-dws_shop_quote .wp-list-table .column-wc_actions a.button {
+  text-indent: 9999px;
+}
+.post-type-dws_shop_quote .wp-list-table .column-wc_actions a.button.wc-action-button-view-accepted-order:after {
+  content: "\f504";
+}
+.post-type-dws_shop_quote .wp-list-table .column-wc_actions a.button.wc-action-button-generate-quote-pdf:after {
+  content: "\f497";
+}
+
+/*# sourceMappingURL=quotes-list-table.css.map */

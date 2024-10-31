@@ -1,0 +1,60 @@
+/**
+ * Deprecated
+ * Fallback for bourbon equivalent
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Vendor prefix no longer required.
+ */
+/**
+ * Deprecated
+ * Use bourbon mixin instead `@include transform(scale(1.5));`
+ */
+/**
+ * Deprecated
+ * Use bourbon mixin instead `@include box-sizing(border-box);`
+ */
+/**
+ * Objects
+ */.post-type-dws_shop_quote .woocommerce-BlankState{margin:auto;max-width:764px;text-align:center}.post-type-dws_shop_quote .woocommerce-BlankState-message{color:#444;font-size:1.5em;margin:0 auto 1em}.post-type-dws_shop_quote .woocommerce-BlankState-message:before{speak:never;-webkit-font-smoothing:antialiased;content:"\e900";font-family:WooCommerce;font-variant:normal;font-weight:400;line-height:1;margin:0 auto;text-decoration:none;text-transform:none}.post-type-dws_shop_quote .woocommerce-BlankState-buttons{margin-bottom:4em}.post-type-dws_shop_quote .tablenav .select2-container{float:left;font-size:14px;margin:1px 6px 4px 1px;vertical-align:middle;width:240px!important}.post-type-dws_shop_quote .wp-list-table thead th{padding:.75em 1em}.post-type-dws_shop_quote .wp-list-table thead th:last-child{padding-right:2em}.post-type-dws_shop_quote .wp-list-table tbody tr{border-top:1px solid #f5f5f5}.post-type-dws_shop_quote .wp-list-table tbody tr td,.post-type-dws_shop_quote .wp-list-table tbody tr th{line-height:26px;padding:1em;vertical-align:middle;width:12ch}.post-type-dws_shop_quote .wp-list-table th[class*=column-]{width:3em}.post-type-dws_shop_quote .wp-list-table .check-column{padding:1em!important;vertical-align:middle;white-space:nowrap;width:1px}.post-type-dws_shop_quote .wp-list-table .column-order_number{width:20ch}.post-type-dws_shop_quote .wp-list-table .column-order_number .order-preview{border:2px solid transparent;border-radius:4px;float:right;height:0;overflow:hidden;padding:20px 4px 4px;position:relative;width:16px}.post-type-dws_shop_quote .wp-list-table .column-order_number .order-preview:before{speak:never;-webkit-font-smoothing:antialiased;content:"\e010";font-family:WooCommerce;font-size:14px;font-variant:normal;font-weight:400;line-height:1;line-height:16px;margin-right:.618em;position:absolute;text-decoration:none;text-transform:none;top:4px}.post-type-dws_shop_quote .wp-list-table .column-order_date,.post-type-dws_shop_quote .wp-list-table th[class*=column-quote_date_]{width:10ch}.post-type-dws_shop_quote .wp-list-table .column-order_status{width:14ch}.post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-request{background:#c8d7e1;color:#2e4453}.post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-cancelled,.post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-expired{background:#f8dda7;color:#94660c}.post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-rejected{background:#eba3a3;color:#761919}.post-type-dws_shop_quote .wp-list-table .column-order_status .order-status.status-quote-accepted{background:#c6e1c6;color:#5b841b}.post-type-dws_shop_quote .wp-list-table .column-billing_address,.post-type-dws_shop_quote .wp-list-table .column-shipping_address{line-height:1.5em;width:20ch}.post-type-dws_shop_quote .wp-list-table .column-order_total{text-align:right;width:8ch}.post-type-dws_shop_quote .wp-list-table .column-order_total a span{float:right}.post-type-dws_shop_quote .wp-list-table .column-wc_actions{text-align:right}.post-type-dws_shop_quote .wp-list-table .column-wc_actions a.button{text-indent:9999px}.post-type-dws_shop_quote .wp-list-table .column-wc_actions a.button.wc-action-button-view-accepted-order:after{content:"\f504"}.post-type-dws_shop_quote .wp-list-table .column-wc_actions a.button.wc-action-button-generate-quote-pdf:after{content:"\f497"}
+/*# sourceMappingURL=quotes-list-table.min.css.map */
